@@ -1,0 +1,9 @@
+# built ts files
+*.js
+
+# dependency directories
+node_modules/
+
+# mac os files
+.DS_Store
+
