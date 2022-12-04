@@ -16,6 +16,12 @@ Rock, paper, scissors is always a problem that I feel could be solved with an en
 
 Would be interested in optimizing this a little bit but I think I'll leave my solutions as they are when I got the right answer for historical purposes.
 
-## Day 03
+### Day 03
 
 Got part 1 pretty confidently and quickly, just needed to Google ascii code values for the alphabet. Part 2 tripped me up a bit. Was torn on how to do it with a single for loop. Ended up not loving the way I filtered down the 'badgeSearch' using a regex match (which I also Googled) because it would sometime result in the 'found badge' being the same character twice (eg. 'rr') so then I had to do some extra boundary checking when getting the point value. Did it with a single loop though so all good. Also did this one late.
+
+### Day 04
+
+Wow I struggled really hard to think of some creative solution to find the overlapping sections (even after I wrote the code to parse the elves start and end positions) efficiently before realizing it could be done with a simple conditional. Annoying part of this problem was parsing the text input into integers.
+
+Part 2 was super easy as you only needed to check one two sets of numbers. Glad I got this one done quick. Especially before KK and Alex ;)
