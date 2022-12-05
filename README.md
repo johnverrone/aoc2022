@@ -25,3 +25,9 @@ Got part 1 pretty confidently and quickly, just needed to Google ascii code valu
 Wow I struggled really hard to think of some creative solution to find the overlapping sections (even after I wrote the code to parse the elves start and end positions) efficiently before realizing it could be done with a simple conditional. Annoying part of this problem was parsing the text input into integers.
 
 Part 2 was super easy as you only needed to check one two sets of numbers. Glad I got this one done quick. Especially before KK and Alex ;)
+
+### Day 05
+
+Annoying parsing this one. I struggled hard with mutable JS array functions (because I typically avoid these) and RegEx (couldn't get the `.groups` working ??). Anyways. Typical stack data structure which made parsing the instructions super simple. Just getting the arrays populated was a pain. Curious if there was a more optimal way get to the data structure setup I wanted.
+
+Also extremely frustrating that I couldn't 'reset' the stack for part 2. Any array cloning solution I could think of or find only duplicated by reference meaning my "cloned" stack for part 2 that should have matched the initial state was mutated by part 1's `.push` and `.unshift` calls. Hopefully tomorrows doesn't take quite this long 😅
