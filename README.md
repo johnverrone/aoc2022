@@ -31,3 +31,7 @@ Part 2 was super easy as you only needed to check one two sets of numbers. Glad 
 Annoying parsing this one. I struggled hard with mutable JS array functions (because I typically avoid these) and RegEx (couldn't get the `.groups` working ??). Anyways. Typical stack data structure which made parsing the instructions super simple. Just getting the arrays populated was a pain. Curious if there was a more optimal way get to the data structure setup I wanted.
 
 Also extremely frustrating that I couldn't 'reset' the stack for part 2. Any array cloning solution I could think of or find only duplicated by reference meaning my "cloned" stack for part 2 that should have matched the initial state was mutated by part 1's `.push` and `.unshift` calls. Hopefully tomorrows doesn't take quite this long 😅
+
+### Day 06
+
+Phew. Way easier that yesterydays. Nice not to parse a bunch of stuff haha. This was pretty straightforwad. Glad I used a set to check unique-ness in part 1 -- it made for an easy part 2. My biggest hiccup was trying to get an `Array.prototype.forEach` function to return early once it found the index. Ended up switching back to a good ole for loop.
