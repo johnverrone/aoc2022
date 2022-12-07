@@ -35,3 +35,11 @@ Also extremely frustrating that I couldn't 'reset' the stack for part 2. Any arr
 ### Day 06
 
 Phew. Way easier that yesterydays. Nice not to parse a bunch of stuff haha. This was pretty straightforwad. Glad I used a set to check unique-ness in part 1 -- it made for an easy part 2. My biggest hiccup was trying to get an `Array.prototype.forEach` function to return early once it found the index. Ended up switching back to a good ole for loop.
+
+### Day 07
+
+Got a solution working in a few minutes for the practice input, but it was apparently incorrect for the main input. Have been struggling for over an hour now and it's way too late. Will pick back up tomorrow but this is frustrating.
+
+Came back to it this morning and (with some Googling, ugh) realized that my approach of tracking directory sizes in a flat way (without the full file path) was likely causing some conflicts and therefore numbers weren't adding up correctly. Using almost an identical approach but storing the size map as `fullDirPath => size` instead of `dirName => size` ended up giving me the correct answer. So frustrating.
+
+Part 2 was easy from there but I also got tripped on how to calculate `usedSpace + wantedSpace - totalDiskSpace` to figure out what the minimum needed to delete was.
