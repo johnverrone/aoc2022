@@ -43,3 +43,7 @@ Got a solution working in a few minutes for the practice input, but it was appar
 Came back to it this morning and (with some Googling, ugh) realized that my approach of tracking directory sizes in a flat way (without the full file path) was likely causing some conflicts and therefore numbers weren't adding up correctly. Using almost an identical approach but storing the size map as `fullDirPath => size` instead of `dirName => size` ended up giving me the correct answer. So frustrating.
 
 Part 2 was easy from there but I also got tripped on how to calculate `usedSpace + wantedSpace - totalDiskSpace` to figure out what the minimum needed to delete was.
+
+### Day 08
+
+Well I definitely didn't opimize my runtime. This solution has loops inside of loops inside of looops 😂 But it was fine. I felt like I got part 1 pretty quickly actually. Part 2 stumped me a lot because I couldn't figure out how to count trees that were in view where _one_ and only one tree of the same height could be counted. I kept getting 0 when I wanted 1 and 3 when I wanted 2. Ended up refactoring the tree counting logic into it's own function and it made it a lot easier.
