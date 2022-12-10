@@ -47,3 +47,7 @@ Part 2 was easy from there but I also got tripped on how to calculate `usedSpace
 ### Day 08
 
 Well I definitely didn't opimize my runtime. This solution has loops inside of loops inside of looops 😂 But it was fine. I felt like I got part 1 pretty quickly actually. Part 2 stumped me a lot because I couldn't figure out how to count trees that were in view where _one_ and only one tree of the same height could be counted. I kept getting 0 when I wanted 1 and 3 when I wanted 2. Ended up refactoring the tree counting logic into it's own function and it made it a lot easier.
+
+## Day 09
+
+Wow this one took a LONG time. Part 1 I did in a pretty ugly way. Brute force, confusing conditionals in each direction. bleh. but I got the answer. I knew pt 2 was going to be extending the rope but for the life of me I could not get the physics right. I finally got something looking right but realized I was still doing conditional logic per direction (eg, I would only let a knot move left if the direction was L). Once I realized that the rules for a knot moving are independent of what direction the head was moving, I finally got the answer correct. Cool problem but sheesh. Took too long.
